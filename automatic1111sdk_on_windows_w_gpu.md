@@ -119,7 +119,7 @@ Is CUDA enabled? True
 
 and the following command:
 ```
-python - m pip list | grep torch 
+python -m pip list | grep torch 
 ```
 can be used to see which cuda levels torch is compiled for. (you need to have grep tool available)
 
